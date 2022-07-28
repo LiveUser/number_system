@@ -1,4 +1,4 @@
-import 'package:flutter_test/flutter_test.dart';
+import 'package:test/test.dart';
 import 'package:number_system/number_system.dart';
 
 void main() {
@@ -21,5 +21,9 @@ void main() {
   test("Octal to decimal test", (){
     int testInteger = 3203;
     print("$testInteger in decimal is ${testInteger.octalToDec()}");
+  });
+  test("Binary to decimal", (){
+    String bin = "10";
+    print(bin.binaryToDec());
   });
 }

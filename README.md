@@ -60,8 +60,20 @@ int testInteger = 3203;
 print("$testInteger in decimal is ${testInteger.octalToDec()}");
 ~~~
 
+### Binary to decimal
+Calculate and return the decimal value of this binary number(string)
 
+~~~dart
+String bin = "10";
+print(bin.binaryToDec());
+~~~
 
+------------------------------------------------------------
+## Contribute/donate by tapping on the Pay Pal logo/image
+
+<a href="https://www.paypal.com/paypalme/onlinespawn"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_74x46.jpg"/></a>
+
+------------------------------------------------------------
 
 ## References
 

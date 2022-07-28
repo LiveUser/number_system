@@ -194,3 +194,20 @@ String _decToEquivalentHexcValue(int dec){
     }
   }
 }
+extension BinaryToDec on String{
+  int binaryToDec(){
+    int total = 0;
+    for(int i = this.length - 1; 0 <= i; i--){
+      String bit = this.substring(i,i+1);
+      int bitPosition = length - 1 - i;
+      if(bit == "1"){
+        total += pow(2, bitPosition).toInt();
+      }else if(bit =="0"){
+        //Do nothing
+      }else{
+        throw "In binary only 1s or 0s are valid";
+      }
+    }
+    return total;
+  }
+}

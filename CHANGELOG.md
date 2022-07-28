@@ -1,3 +1,10 @@
+##  Version 0.0.4+5 - July 28 2022
+* Binary to decimal function added
+
+##  Version 0.0.3+4 - April 21 2022
+* Removed flutter as a dependency
+* Added a donate link
+
 ## Version 0.0.2+3 - September 27 2021
 * Decimal to octal functionality added
 * Octal to decimal functionality added
