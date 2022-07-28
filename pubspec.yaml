@@ -1,6 +1,6 @@
 name: number_system
 description: A package to extend the functionality to convert between number systems
-version: 0.0.4+5
+version: 0.0.5+6
 homepage:
 repository: https://github.com/LiveUser/number_system
 

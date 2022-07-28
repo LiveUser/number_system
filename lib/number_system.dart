@@ -211,3 +211,31 @@ extension BinaryToDec on String{
     return total;
   }
 }
+//TODO: DECTOBinary
+extension DecToBinary on int{
+  String decToBinary(){
+    //Generate the binary number
+    String binaryResult = "";
+    //Position of the biggest number that fits inside the number
+    int biggestNumberThatFits = 0;
+    while((pow(2, biggestNumberThatFits) < this)){
+      biggestNumberThatFits++;
+    }
+    int numberToConvert = this;
+    //Convert to binary
+    for(int i = biggestNumberThatFits; 0 <= i; i--){
+      if((numberToConvert - pow(2, i)) >= 0){
+        numberToConvert -= pow(2, i).toInt();
+        binaryResult = "${binaryResult}1";
+      }else{
+        binaryResult = "${binaryResult}0";
+      }
+    }
+    //Delete the firs zero if it exists(was added by this process)(it is unecessary)
+    if(binaryResult.length > 1 && binaryResult.substring(0,1) == "0"){
+      binaryResult  = binaryResult.substring(1);
+    }
+    //Return the result
+    return binaryResult;
+  }
+}

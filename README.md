@@ -68,6 +68,14 @@ String bin = "10";
 print(bin.binaryToDec());
 ~~~
 
+### Binary to decimal
+Calculate and return the binary value of this integer
+
+~~~dart
+int dec = 5;
+print(dec.decToBinary());
+~~~
+
 ------------------------------------------------------------
 ## Contribute/donate by tapping on the Pay Pal logo/image
 

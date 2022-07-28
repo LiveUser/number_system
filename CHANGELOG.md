@@ -1,3 +1,6 @@
+## Version 0.0.5+6 - July 28 2022
+* Integer to binary function added
+
 ##  Version 0.0.4+5 - July 28 2022
 * Binary to decimal function added
 

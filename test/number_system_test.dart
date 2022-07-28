@@ -26,4 +26,8 @@ void main() {
     String bin = "10";
     print(bin.binaryToDec());
   });
+  test("Decimal to binary", (){
+    int dec = 5;
+    print(dec.decToBinary());
+  });
 }
