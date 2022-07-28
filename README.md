@@ -68,7 +68,7 @@ String bin = "10";
 print(bin.binaryToDec());
 ~~~
 
-### Binary to decimal
+### Decimal(integer) to binary
 Calculate and return the binary value of this integer
 
 ~~~dart

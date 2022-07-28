@@ -1,3 +1,6 @@
+## Version 0.0.5+7
+* Corrected a mistake on the readme
+
 ## Version 0.0.5+6 - July 28 2022
 * Integer to binary function added
 
